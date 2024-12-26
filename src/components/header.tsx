@@ -17,7 +17,7 @@ export const Header = () => {
 
     return () => clearInterval(interval);
   }, [images.length]);
-
+  console.log(currentImageIndex);
   return (
     <div className="for_main_Section">
       <div className="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">

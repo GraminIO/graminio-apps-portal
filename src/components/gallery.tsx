@@ -17,7 +17,6 @@ export const Gallery = (props: any) => {
                 <div key={`${d.title}-${i}`} className="gallery-item">
                   <Image
                     title={d.title}
-                    largeImage={d.largeImage}
                     smallImage={d.smallImage}
                   />
                 </div>

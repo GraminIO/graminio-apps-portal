@@ -7,6 +7,7 @@ export const Navigation = () => {
     setDropdownOpen(false);
   };
 
+  console.log(dropdownOpen);
   useEffect(() => {
     const handleClickOutside = (event: any) => {
       if (!event.target.closest(".dropdown")) {
