@@ -1,0 +1,157 @@
+{
+  
+  "About": {
+    "paragraph": "Welcome to GraminIO! We are a dynamic and forward-thinking software company with a passion for creating cutting-edge solutions that drive business growth.  With a dedicated team of experienced developers, designers, and project managers, we specialize in delivering top-notch software development and design services tailored to our clients' unique needs.",
+    "Why": [
+      "Diverse Expertise",
+      "Professional Staff"
+    ],
+    "Why2": [
+      "24/7 Support",
+      "Fair Prices"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "React",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Python",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Microsoft .NET",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": ".NET Core",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "django",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Azure",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "AWS",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Angular.JS",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "HTML",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    },
+    {
+      "title": "Javascript",
+      "largeImage": "img/portfolio/10-large.jpg",
+      "smallImage": "img/portfolio/10-small.jpg"
+    },
+    {
+      "title": "API Rest",
+      "largeImage": "img/portfolio/11-large.jpg",
+      "smallImage": "img/portfolio/11-small.jpg"
+    },
+    {
+      "title": "SQL Server",
+      "largeImage": "img/portfolio/12-large.jpg",
+      "smallImage": "img/portfolio/12-small.jpg"
+    },
+    {
+      "title": ".NET Framework",
+      "largeImage": "img/portfolio/13-large.jpg",
+      "smallImage": "img/portfolio/13-small.jpg"
+    },
+    {
+      "title": "Web Developement",
+      "largeImage": "img/portfolio/14-large.jpg",
+      "smallImage": "img/portfolio/14-small.jpg"
+    },
+    {
+      "title": "MVC",
+      "largeImage": "img/portfolio/15-large.jpg",
+      "smallImage": "img/portfolio/15-small.jpg"
+    },
+    {
+      "title": "C#",
+      "largeImage": "img/portfolio/16-large.jpg",
+      "smallImage": "img/portfolio/16-small.jpg"
+    },
+    {
+      "title": "CSS",
+      "largeImage": "img/portfolio/17-large.jpg",
+      "smallImage": "img/portfolio/17-small.jpg"
+    },
+    {
+      "title": "BOOTSTRAP",
+      "largeImage": "img/portfolio/18-large.jpg",
+      "smallImage": "img/portfolio/18-small.jpg"
+    },
+    {
+      "title": "jQuery",
+      "largeImage": "img/portfolio/19-large.jpg",
+      "smallImage": "img/portfolio/19-small.jpg"
+    },
+    {
+      "title": "WordPress",
+      "largeImage": "img/portfolio/20-large.jpg",
+      "smallImage": "img/portfolio/20-small.jpg"
+    },
+    {
+      "title": "Tesseract",
+      "largeImage": "img/portfolio/21-large.jpg",
+      "smallImage": "img/portfolio/21-small.jpg"
+    },
+    {
+      "title": "OCR",
+      "largeImage": "img/portfolio/22-large.jpg",
+      "smallImage": "img/portfolio/22-small.jpg"
+    },
+    {
+      "title": "Document Management Resource",
+      "largeImage": "img/portfolio/23-large.jpg",
+      "smallImage": "img/portfolio/23-small.jpg"
+    },
+    {
+      "title": "Digitalization",
+      "largeImage": "img/portfolio/24-large.jpg",
+      "smallImage": "img/portfolio/24-small.jpg"
+    },
+    {
+      "title": "Processing",
+      "largeImage": "img/portfolio/25-large.jpg",
+      "smallImage": "img/portfolio/25-small.jpg"
+    },
+    {
+      "title": " HandWritting Reconization",
+      "largeImage": "img/portfolio/26-large.jpg",
+      "smallImage": "img/portfolio/26-small.jpg"
+    },
+    {
+      "title": " PDF OCR",
+      "largeImage": "img/portfolio/27-large.jpg",
+      "smallImage": "img/portfolio/27-small.jpg"
+    },
+    {
+      "title": "ETL",
+      "largeImage": "img/portfolio/28-large.jpg",
+      "smallImage": "img/portfolio/28-small.jpg"
+    }
+  ]
+  
+}
