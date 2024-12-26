@@ -4,7 +4,7 @@ import { Footer } from "./footer";
 export const About = () => {
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
       <div className="for_main_Section">
         <div className="container-xxl py-6">
           <div className="container">
