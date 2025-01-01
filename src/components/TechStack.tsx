@@ -1,9 +1,7 @@
-import { Image } from "./image";
+import { Image } from "./Image";
+import { Gallery as data } from "../data/data.json";
 
-export const Gallery = (props: any) => {
-  // Ensure only 28 items (7 columns x 4 rows) are displayed
-  const itemsToDisplay = props.data ? props.data.slice(0, 28) : [];
-
+export const TechStack = () => {
   return (
     <div id="portfolio" className="text-center py-6">
       <div className="container">
@@ -12,8 +10,8 @@ export const Gallery = (props: any) => {
           <h1 className="display-6 mb-4">Our Perfect Tech Stack</h1>
         </div>
         <div className="gallery-grid">
-          {itemsToDisplay.length > 0
-            ? itemsToDisplay.map((d: any, i: any) => (
+          {data.length > 0
+            ? data.map((d: any, i: any) => (
                 <div key={`${d.title}-${i}`} className="gallery-item">
                   <Image
                     title={d.title}

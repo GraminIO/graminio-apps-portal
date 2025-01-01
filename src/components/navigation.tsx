@@ -1,40 +1,4 @@
-import { useState, useEffect } from "react";
-
 export const Navigation = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-
-  const closeDropdown = () => {
-    setDropdownOpen(false);
-  };
-
-  console.log(dropdownOpen);
-  useEffect(() => {
-    const handleClickOutside = (event: any) => {
-      if (!event.target.closest(".dropdown")) {
-        closeDropdown();
-      }
-    };
-
-    document.addEventListener("click", handleClickOutside);
-    return () => {
-      document.removeEventListener("click", handleClickOutside);
-    };
-  }, []);
-
-  // Inject the HubSpot script dynamically
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "//js-na1.hs-scripts.com/47166023.js";
-    script.async = true;
-    script.defer = true;
-    script.id = "hs-script-loader";
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script); // Cleanup when component unmounts
-    };
-  }, []);
-
   return (
     <header>
       {/* Top bar */}
@@ -52,25 +16,25 @@ export const Navigation = () => {
             </div>
             <div className="h-100 d-inline-flex align-items-center mx-n2">
               <a
-                className="btn btn-square btn-link rounded-0 border-0 border-end border-secondary"
+                className="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" target="_blank"
                 href="https://www.facebook.com/GraminIOTech/"
               >
                 <i className="fab fa-facebook-f"></i>
               </a>
               <a
-                className="btn btn-square btn-link rounded-0 border-0 border-end border-secondary"
+                className="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" target="_blank"
                 href="https://twitter.com/graminiotech"
               >
                 <i className="fab fa-twitter"></i>
               </a>
               <a
-                className="btn btn-square btn-link rounded-0 border-0 border-end border-secondary"
+                className="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" target="_blank"
                 href="https://www.linkedin.com/company/graminio-technologies-pvt-ltd/"
               >
                 <i className="fab fa-linkedin-in"></i>
               </a>
               <a
-                className="btn btn-square btn-link rounded-0"
+                className="btn btn-square btn-link rounded-0" target="_blank"
                 href="https://www.instagram.com/graminiotechnologies/"
               >
                 <i className="fab fa-instagram"></i>
@@ -83,7 +47,7 @@ export const Navigation = () => {
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a
-          href="index.html"
+          href="/"
           className="navbar-brand d-flex align-items-center px-4 px-lg-5"
         >
           <img src="img/logo_H.png" className="img-fluid home_logo" />
@@ -98,7 +62,7 @@ export const Navigation = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav ms-auto p-4 p-lg-0">
-            <a href="index.html" className="nav-item nav-link active">
+            <a href="/" className="nav-item nav-link active">
               Home
             </a>
             <a href="/about" className="nav-item nav-link">
@@ -129,7 +93,7 @@ export const Navigation = () => {
             </a>
           </div>
           <a
-            href="/contact"
+            href="/contactus"
             className="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
           >
             Get Started<i className="fa fa-arrow-right ms-3"></i>
