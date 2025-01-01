@@ -18,11 +18,14 @@ const App = () => {
     <Router>
       <Navigation />
       <Routes>
-        <Route path="/" element={ <Dashboard /> } />
+        <Route path="/" element={<Dashboard />} />
         <Route path="/about" element={<About />} />
 
         <Route path="/computer-vision" element={<ComputerVision />} />
-        <Route path="/document-transformation" element={<DocumentTransformation />} />
+        <Route
+          path="/document-transformation"
+          element={<DocumentTransformation />}
+        />
         <Route path="/tailored-ai-solution" element={<TailoredAISolution />} />
 
         <Route path="/blog" element={<Blog />} />
