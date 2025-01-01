@@ -1,9 +1,6 @@
-import { Navigation } from "./navigation";
-import { Footer } from "./footer";
 export const Blog = () => {
   return (
     <>
-      <Navigation />
       <div className="for_main_Section">
         <div>
           <div className="container-xxl py-6">
@@ -36,7 +33,7 @@ export const Blog = () => {
                       </p>
                       <a
                         className="btn btn-primary py-3 px-5"
-                        href="EmbracingtheFuturewithAI.html"
+                        href="/blog/EmbracingAi"
                         target="_blank"
                       >
                         Read More
@@ -70,7 +67,7 @@ export const Blog = () => {
                       </p>
                       <a
                         className="btn btn-primary py-3 px-5"
-                        href="10MostImportantAITrendsfor2024.html"
+                        href="/blog/ai-trends-2024"
                         target="_blank"
                       >
                         Read More
@@ -105,7 +102,7 @@ export const Blog = () => {
                       </p>
                       <a
                         className="btn btn-primary py-3 px-5"
-                        href="TheFutureofComputerVision.html"
+                        href="/blog/computer-vision1"
                         target="_blank"
                       >
                         Read More
@@ -149,7 +146,6 @@ export const Blog = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

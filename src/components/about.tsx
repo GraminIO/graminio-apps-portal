@@ -1,10 +1,6 @@
-import { Navigation } from "./navigation";
-import { Footer } from "./footer";
-
 export const About = () => {
   return (
     <>
-      {/* <Navigation /> */}
       <div className="for_main_Section">
         <div className="container-xxl py-6">
           <div className="container">
@@ -198,7 +194,6 @@ export const About = () => {
           </div>
         </div>
       </div>
-      
     </>
   );
 };

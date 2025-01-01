@@ -2,7 +2,7 @@ export const Footer = () => {
   return (
     <footer className="border-top footer text-muted">
       <div
-        className="container-fluid bg-dark text-light footer py-6 wow fadeIn"
+        className="container-fluid bg-dark text-light footer my-6 mb-0 py-6 wow fadeIn"
         data-wow-delay="0.1s"
       >
         <div className="container">
@@ -10,11 +10,9 @@ export const Footer = () => {
             <div className="col-lg-3 col-md-6">
               <h4 className="text-white mb-4">Get In Touch</h4>
               <img
-                src="/img/Graminio_white_logo.png"
+                src="img/Graminio_white_logo.png"
                 className="img-fluid home_logo mb-2"
-                alt="GraminIO Logo"
               />
-
               <p className="mb-2">
                 <i className="fab fa-whatsapp me-3"></i>+91 90047 57685
               </p>
@@ -31,48 +29,48 @@ export const Footer = () => {
               <a className="btn btn-link" href="/about">
                 About Us
               </a>
-              <a className="btn btn-link" href="contact.html">
+              <a className="btn btn-link" href="/contactus">
                 Contact Us
               </a>
             </div>
-            <div className="social-icons">
+            <div className="col-lg-3 col-md-6">
               <h6 className="text-white mt-4 mb-3">Follow Us</h6>
               <div className="d-flex pt-2">
                 <a
-                  href="https://facebook.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  className="btn btn-square btn-outline-light me-1" target="_blank"
+                  href="https://twitter.com/graminiotech"
                 >
-                  <i className="fa fa-facebook"></i>
+                  <i className="fab fa-twitter"></i>
                 </a>
                 <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  className="btn btn-square btn-outline-light me-1" target="_blank"
+                  href="https://www.facebook.com/GraminIOTech/"
                 >
-                  <i className="fa fa-twitter"></i>
+                  <i className="fab fa-facebook-f"></i>
                 </a>
                 <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  className="btn btn-square btn-outline-light me-1" target="_blank"
+                  href="https://www.youtube.com/channel/UCpflNj20fj0POm-Ygxig5rQ"
                 >
-                  <i className="fa fa-linkedin"></i>
+                  <i className="fab fa-youtube"></i>
                 </a>
                 <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  className="btn btn-square btn-outline-light me-1" target="_blank"
+                  href="https://www.instagram.com/graminiotechnologies/"
                 >
-                  <i className="fa fa-instagram"></i>
+                  <i className="fab fa-instagram"></i>
+                </a>
+                <a
+                  className="btn btn-square btn-outline-light me-0" target="_blank"
+                  href="https://www.linkedin.com/company/graminio-technologies-pvt-ltd/"
+                >
+                  <i className="fab fa-linkedin-in"></i>
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Copyright Section */}
       <div
         className="container-fluid copyright text-light py-4 wow fadeIn"
         data-wow-delay="0.1s"
@@ -81,7 +79,7 @@ export const Footer = () => {
           <div className="row">
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
               <p className="mb-0">
-                &copy; 2024{" "}
+                © 2024{" "}
                 <a className="text-white border-bottom" href="#">
                   GraminIO
                 </a>

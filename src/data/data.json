@@ -1,16 +1,4 @@
 {
-  
-  "About": {
-    "paragraph": "Welcome to GraminIO! We are a dynamic and forward-thinking software company with a passion for creating cutting-edge solutions that drive business growth.  With a dedicated team of experienced developers, designers, and project managers, we specialize in delivering top-notch software development and design services tailored to our clients' unique needs.",
-    "Why": [
-      "Diverse Expertise",
-      "Professional Staff"
-    ],
-    "Why2": [
-      "24/7 Support",
-      "Fair Prices"
-    ]
-  },
   "Gallery": [
     {
       "title": "React",

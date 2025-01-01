@@ -2,26 +2,44 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GraminIO - Software Development Company</title>
-  <meta name="description" content="Leading software development company offering custom solutions, mobile app development, web development, and IT services. Contact us for innovative and scalable software solutions.">
-  <meta name="keywords" content="software development, custom software solutions, IT services, mobile app development, web development, software company">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Leading software development company offering custom solutions, mobile app development, web development, and IT services. Contact us for innovative and scalable software solutions."
+  />
+  <meta
+    name="keywords"
+    content="software development, custom software solutions, IT services, mobile app development, web development, software company"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Open Graph Tags -->
-  <meta property="og:title" content="Software Development Company">
-  <meta property="og:description" content="Leading software development company offering custom solutions, mobile app and web development.">
-  <meta property="og:image" content="img/logo_H.png">
-  <meta property="og:url" content="https://graminio.com/">
-  <meta property="og:type" content="website">
+  <meta property="og:title" content="Software Development Company" />
+  <meta
+    property="og:description"
+    content="Leading software development company offering custom solutions, mobile app and web development."
+  />
+  <meta property="og:image" content="img/logo_H.png" />
+  <meta property="og:url" content="https://graminio.com/" />
+  <meta property="og:type" content="website" />
 
-  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="icon" type="image/png" href="img/favicon.png" />
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+  />
 
   <!-- Icon Font Stylesheet -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+  />
 
   <!-- Libraries Stylesheet -->
   <link rel="stylesheet" href="lib/animate/animate.min.css" />
@@ -33,23 +51,46 @@
   <!-- Template Stylesheet -->
   <link rel="stylesheet" href="css/style.css" />
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EQY3VXBP93"></script>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-EQY3VXBP93"
+  ></script>
   <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-      gtag('config', 'G-EQY3VXBP93');
+    gtag("config", "G-EQY3VXBP93");
   </script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   <div id="root"></div>
-      <!-- JavaScript Libraries -->
-      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-   
-      <script type="module" src="/src/main.tsx"></script>
-      <!-- Template Javascript -->
-      <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/47166023.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script type="module" src="/src/main.tsx"></script>
+  <!-- Template Javascript -->
+  <script
+    type="text/javascript"
+    id="hs-script-loader"
+    async
+    defer
+    src="//js-na1.hs-scripts.com/47166023.js"
+  ></script>
+  <script>
+    const script = document.createElement("script");
+    script.src = "//js-na1.hs-scripts.com/47166023.js";
+    script.async = true;
+    script.defer = true;
+    script.id = "hs-script-loader";
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script); // Cleanup when component unmounts
+    };
+  </script>
 </body>
