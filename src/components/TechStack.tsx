@@ -1,4 +1,4 @@
-import { Image } from "./Image";
+import { Image } from "./image";
 import { Gallery as data } from "../data/data.json";
 
 export const TechStack = () => {
