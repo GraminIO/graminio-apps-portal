@@ -1,7 +1,7 @@
-import { Navigation } from "./components/navigation";
+import { Navigation } from "./components/Navigation";
 import { Dashboard } from "./components/Dashboard";
-import { About } from "./components/about";
-import { Footer } from "./components/footer";
+import { About } from "./components/About";
+import { Footer } from "./components/Footer";
 import Blog from "./components/Blog";
 import GetStarted from "./components/GetStarted";
 import ComputerVision from "./components/Services/ComputerVision";
