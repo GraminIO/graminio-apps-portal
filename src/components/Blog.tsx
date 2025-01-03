@@ -133,7 +133,7 @@ export const Blog = () => {
                       </p>
                       <a
                         className="btn btn-primary py-3 px-5"
-                        href="TheFutureOfLargeLanguageModels.html"
+                        href="/blog/LLMs"
                         target="_blank"
                       >
                         Read More

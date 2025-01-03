@@ -10,7 +10,8 @@ export const Footer = () => {
             <div className="col-lg-3 col-md-6">
               <h4 className="text-white mb-4">Get In Touch</h4>
               <img
-                src="img/Graminio_white_logo.png"
+                 src="/img/Graminio_white_logo.png"
+
                 className="img-fluid home_logo mb-2"
               />
               <p className="mb-2">

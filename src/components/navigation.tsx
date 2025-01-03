@@ -50,7 +50,8 @@ export const Navigation = () => {
           href="/"
           className="navbar-brand d-flex align-items-center px-4 px-lg-5"
         >
-          <img src="img/logo_H.png" className="img-fluid home_logo" />
+<img src="/img/logo_H.png" className="img-fluid home_logo" alt="Logo" />
+
         </a>
         <button
           type="button"
