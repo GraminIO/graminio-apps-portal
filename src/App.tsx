@@ -9,6 +9,7 @@ import DocumentTransformation from "./components/Services/DocumentTransformation
 import TailoredAISolution from "./components/Services/TailoredAISolution";
 import EmbracingAi from "./components/Blogs/EmbracingAi";
 import AI2024 from "./components/Blogs/AI2024";
+import LLMs from "./components/Blogs/LLMs";
 import ComputerVision1 from "./components/Blogs/ComputerVision1";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/blog/ai-trends-2024" element={<AI2024 />} />
         <Route path="/blog/EmbracingAi" element={<EmbracingAi />} />
         <Route path="/blog/computer-vision1" element={<ComputerVision1 />} />
+        <Route path="/blog/llms" element={<LLMs />} />
 
         <Route path="/contactus" element={<GetStarted />} />
       </Routes>
