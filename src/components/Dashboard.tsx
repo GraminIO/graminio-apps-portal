@@ -371,11 +371,10 @@ export const Dashboard = () => {
                     <div className="flex-shrink-0 btn-square bg-primary me-3">
                       <i className="fa fa-check text-white"></i>
                     </div>
-                    <h5 className="mb-0">Mobile App Development</h5>
+                    <h5 className="mb-0">Application Development</h5>
                   </div>
                   <span>
-                    From iOS to Android, we create intuitive and feature-rich
-                    mobile apps that engage users and elevate brands.
+                  Optimize your operations and user interaction with our mobile, full-stack, and CMS development, featuring our advanced technology and integration.
                   </span>
                 </div>
                 <div className="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
@@ -383,11 +382,10 @@ export const Dashboard = () => {
                     <div className="flex-shrink-0 btn-square bg-primary me-3">
                       <i className="fa fa-check text-white"></i>
                     </div>
-                    <h5 className="mb-0">Web Development</h5>
+                    <h5 className="mb-0">Data Engineering</h5>
                   </div>
                   <span>
-                    We craft responsive, user-friendly websites that deliver
-                    seamless experiences across devices.
+                  For optimized data warehousing and seamless migration, our Snowflake and AWS platforms provide enterprises with superior scalability and precision.
                   </span>
                 </div>
                 <div className="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
@@ -395,12 +393,36 @@ export const Dashboard = () => {
                     <div className="flex-shrink-0 btn-square bg-primary me-3">
                       <i className="fa fa-check text-white"></i>
                     </div>
-                    <h5 className="mb-0">Custom Software</h5>
+                    <h5 className="mb-0">AI/ML Development</h5>
                   </div>
                   <span>
-                    Our team specializes in developing tailored software
-                    solutions to address your unique challenges and
-                    opportunities.
+                  For optimal generative AI integration, use our advanced data preprocessing, algorithmic engineering, and ongoing support to enhance decision-making with ML algorithms.
+                  </span>
+                </div>
+
+
+                <div className="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                  <div className="d-flex align-items-center mb-3">
+                    <div className="flex-shrink-0 btn-square bg-primary me-3">
+                      <i className="fa fa-check text-white"></i>
+                    </div>
+                    <h5 className="mb-0">Enterprise Services</h5>
+                  </div>
+                  <span>
+                  Elevate your enterprise operations with our cutting-edge services, including seamless ServiceNow integration and innovative IoT development.
+                  </span>
+                </div>
+
+
+                <div className="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                  <div className="d-flex align-items-center mb-3">
+                    <div className="flex-shrink-0 btn-square bg-primary me-3">
+                      <i className="fa fa-check text-white"></i>
+                    </div>
+                    <h5 className="mb-0">Cloud Computing</h5>
+                  </div>
+                  <span>
+                  Set up CI/CD pipelines, and streamline your cloud migration, management, and modernization with our tailored guidance and support of our AWS and Azure expert consultants.
                   </span>
                 </div>
               </div>
@@ -418,6 +440,175 @@ export const Dashboard = () => {
                 />
               </div>
             </div>
+
+
+            <div className="container-xxl courses my-6 py-6 pb-0">
+        <div className="container">
+          <div
+            className="text-center mx-auto mb-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <h6 className="text-primary text-uppercase mb-2">Our Service</h6>
+          </div>
+          <div className="row g-4 justify-content-center" id="appoinment_form">
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
+              <div className="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                <div className="text-center p-4">
+
+                  <h5 className="mb-3">Healthcare and Medicine</h5>
+                  <p>
+                  <b>Secure and HIPAA-compliant healthcare solutions </b> 
+                  Be it improving patient data management, enhancing care delivery, or reducing data retrieval times, SoftProdigy caters to all! ...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              <div className="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                <div className="text-center p-4">
+                  <h5 className="mb-3">Finance and Banking</h5>
+                  <p>
+                    <b>Fast, scalable, and regulatory-compliant fintech </b>
+                    Match the accelerating pace of the digital revolution in finance with our future-ready solutions catering to diverse fintech business objectives...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.5s"
+            >
+              <div className="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                <div className="text-center p-4">
+                  <h5 className="mb-3">Retail and E-commerce</h5>
+                  <p>
+                   <b>Greater sales with cloud, AI, ML, and data analytics </b>
+                   At SoftProdigy, we don’t just build e-commerce apps; we engineer and master them. Our team helps retailers streamline their operations...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.5s"
+            >
+              <div className="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                <div className="text-center p-4">
+                  <h5 className="mb-3">Education and eLearning</h5>
+                  <p>
+                    <b>Build digital learning platforms of tomorrow </b>
+                    With our versatile software and cloud business intelligence solutions, we cater to a wide range of industries, including education...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.5s"
+            >
+              <div className="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                <div className="text-center p-4">
+                  <h5 className="mb-3">Supply Chain and Logistics</h5>
+                  <p>
+                    <b>Real-time solutions for smarter businesses </b>
+                    If you can’t afford downtime, then we can be your reliable tech partner when it comes to enabling predictive maintenance ...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.5s"
+            >
+              <div className="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                <div className="text-center p-4">
+                  <h5 className="mb-3">Travel and Hospitality</h5>
+                  <p>
+                    <b>Creating sophisticated guest experiences </b>
+                    Whether you want to streamline booking systems, achieve greater customer satisfaction with improved guest services, or enhance guest...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+  style={{
+    display: "flex",
+    alignItems: "center",
+    gap: "80px", 
+    padding: "10px",
+  }}
+>
+  <h2
+    style={{
+      margin: 0,
+      display: "flex",
+      flexDirection: "column", 
+      textAlign: "left",
+    }}
+  >
+    <span>Our Esteemed</span>
+    <span>Clients</span>
+  </h2>
+  <div
+    style={{
+      overflow: "hidden", 
+      width: "600px", 
+      position: "relative",
+    }}
+    className="slider-container"
+  >
+    <div
+      style={{
+        display: "flex",
+        gap: "90px",
+        animation: "slide 10s linear infinite", 
+      }}
+      className="clients-logos"
+    >
+      <img
+        src="img/portfolio/vehere.png"
+        alt="Unity"
+        style={{ maxWidth: "120px", height: "auto" }}
+      />
+      <img
+        src="img/portfolio/fujifilm.png"
+        alt="Preferred Mutual"
+        style={{ maxWidth: "120px", height: "auto" }}
+      />
+      <img
+        src="img/portfolio/Tiblo1.png"
+        alt="Draft Kings"
+        style={{ maxWidth: "120px", height: "auto" }}
+      />
+      {/* Duplicate logos for smooth infinite scrolling */}
+      <img
+        src="img/portfolio/vehere.png"
+        alt="Unity"
+        style={{ maxWidth: "120px", height: "auto" }}
+      />
+      <img
+        src="img/portfolio/fujifilm.png"
+        alt="Preferred Mutual"
+        style={{ maxWidth: "120px", height: "auto" }}
+      />
+      <img
+        src="img/portfolio/Tiblo1.png"
+        alt="Draft Kings"
+        style={{ maxWidth: "120px", height: "auto" }}
+      />
+    </div>
+  </div>
+</div>
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "django",
+      "title": "Django",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
@@ -37,11 +37,11 @@
     },
     {
       "title": "Angular.JS",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "largeImage": "img/portfolio/08-large.png",
+      "smallImage": "img/portfolio/08-small.png"
     },
     {
-      "title": "HTML",
+      "title": "AI",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     },
@@ -62,18 +62,8 @@
     },
     {
       "title": ".NET Framework",
-      "largeImage": "img/portfolio/13-large.jpg",
-      "smallImage": "img/portfolio/13-small.jpg"
-    },
-    {
-      "title": "Web Developement",
-      "largeImage": "img/portfolio/14-large.jpg",
-      "smallImage": "img/portfolio/14-small.jpg"
-    },
-    {
-      "title": "MVC",
-      "largeImage": "img/portfolio/15-large.jpg",
-      "smallImage": "img/portfolio/15-small.jpg"
+      "largeImage": "img/portfolio/13-large.webp",
+      "smallImage": "img/portfolio/13-small.webp"
     },
     {
       "title": "C#",
@@ -81,65 +71,9 @@
       "smallImage": "img/portfolio/16-small.jpg"
     },
     {
-      "title": "CSS",
-      "largeImage": "img/portfolio/17-large.jpg",
-      "smallImage": "img/portfolio/17-small.jpg"
-    },
-    {
-      "title": "BOOTSTRAP",
-      "largeImage": "img/portfolio/18-large.jpg",
-      "smallImage": "img/portfolio/18-small.jpg"
-    },
-    {
-      "title": "jQuery",
-      "largeImage": "img/portfolio/19-large.jpg",
-      "smallImage": "img/portfolio/19-small.jpg"
-    },
-    {
       "title": "WordPress",
       "largeImage": "img/portfolio/20-large.jpg",
       "smallImage": "img/portfolio/20-small.jpg"
-    },
-    {
-      "title": "Tesseract",
-      "largeImage": "img/portfolio/21-large.jpg",
-      "smallImage": "img/portfolio/21-small.jpg"
-    },
-    {
-      "title": "OCR",
-      "largeImage": "img/portfolio/22-large.jpg",
-      "smallImage": "img/portfolio/22-small.jpg"
-    },
-    {
-      "title": "Document Management Resource",
-      "largeImage": "img/portfolio/23-large.jpg",
-      "smallImage": "img/portfolio/23-small.jpg"
-    },
-    {
-      "title": "Digitalization",
-      "largeImage": "img/portfolio/24-large.jpg",
-      "smallImage": "img/portfolio/24-small.jpg"
-    },
-    {
-      "title": "Processing",
-      "largeImage": "img/portfolio/25-large.jpg",
-      "smallImage": "img/portfolio/25-small.jpg"
-    },
-    {
-      "title": " HandWritting Reconization",
-      "largeImage": "img/portfolio/26-large.jpg",
-      "smallImage": "img/portfolio/26-small.jpg"
-    },
-    {
-      "title": " PDF OCR",
-      "largeImage": "img/portfolio/27-large.jpg",
-      "smallImage": "img/portfolio/27-small.jpg"
-    },
-    {
-      "title": "ETL",
-      "largeImage": "img/portfolio/28-large.jpg",
-      "smallImage": "img/portfolio/28-small.jpg"
     }
   ]
-  
 }

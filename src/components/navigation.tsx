@@ -79,13 +79,13 @@ export const Navigation = () => {
               </a>
               <div className="dropdown-menu bg-light m-0">
                 <a href="/computer-vision" className="dropdown-item">
-                  Computer Vision
+                  Web Development
                 </a>
                 <a href="/document-transformation" className="dropdown-item">
-                  Document Tranformation & Translation
+                  Artificial Intelligence
                 </a>
                 <a href="/tailored-ai-solution" className="dropdown-item">
-                  Tailored AI Solution
+                  Data Science
                 </a>
               </div>
             </div>
