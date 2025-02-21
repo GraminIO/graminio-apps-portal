@@ -457,6 +457,9 @@ export const Dashboard = () => {
             >
               <div className="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                 <div className="text-center p-4">
+                <img src="img/portfolio/Healthcare.jpg" 
+     alt="Healthcare Icon" 
+     style={{ width: '90px', height: '90px', marginBottom: '1rem' }} />
 
                   <h5 className="mb-3">Healthcare and Medicine</h5>
                   <p>
@@ -472,7 +475,11 @@ export const Dashboard = () => {
             >
               <div className="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                 <div className="text-center p-4">
-                  <h5 className="mb-3">Finance and Banking</h5>
+                <img src="img/portfolio/Banking.jpg" 
+     alt="Finance and Banking Icon" 
+     style={{ width: '90px', height: '90px', marginBottom: '1rem' }} />
+                
+                <h5 className="mb-3">Finance and Banking</h5>
                   <p>
                     <b>Fast, scalable, and regulatory-compliant fintech </b>
                     Match the accelerating pace of the digital revolution in finance with our future-ready solutions catering to diverse fintech business objectives...
@@ -486,6 +493,9 @@ export const Dashboard = () => {
             >
               <div className="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                 <div className="text-center p-4">
+                <img src="img/portfolio/Retail.jpg" 
+     alt="Retail and E-commerce Icon" 
+     style={{ width: '90px', height: '90px', marginBottom: '1rem' }} />
                   <h5 className="mb-3">Retail and E-commerce</h5>
                   <p>
                    <b>Greater sales with cloud, AI, ML, and data analytics </b>
@@ -500,6 +510,9 @@ export const Dashboard = () => {
             >
               <div className="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                 <div className="text-center p-4">
+                <img src="img/portfolio/Education.jpg" 
+     alt=">Education and eLearning Icon" 
+     style={{ width: '90px', height: '90px', marginBottom: '1rem' }} />
                   <h5 className="mb-3">Education and eLearning</h5>
                   <p>
                     <b>Build digital learning platforms of tomorrow </b>
@@ -514,6 +527,9 @@ export const Dashboard = () => {
             >
               <div className="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                 <div className="text-center p-4">
+                <img src="img/portfolio/Logistics.jpg" 
+     alt="Supply Chain and Logistics Icon" 
+     style={{ width: '90px', height: '90px', marginBottom: '1rem' }} />
                   <h5 className="mb-3">Supply Chain and Logistics</h5>
                   <p>
                     <b>Real-time solutions for smarter businesses </b>
@@ -528,6 +544,9 @@ export const Dashboard = () => {
             >
               <div className="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                 <div className="text-center p-4">
+                <img src="img/portfolio/Hospitality.jpg" 
+     alt="Travel and Hospitality Icon" 
+     style={{ width: '90px', height: '90px', marginBottom: '1rem' }} />
                   <h5 className="mb-3">Travel and Hospitality</h5>
                   <p>
                     <b>Creating sophisticated guest experiences </b>

@@ -33,9 +33,7 @@ export const Footer = () => {
               <a className="btn btn-link" href="/contactus">
                Contact Us
               </a>
-             <a className="btn btn-link" href="/services">
-             Services
-              </a> 
+              
                   <a className="btn btn-link" href="/blog">
                   Blog
                   </a>
