@@ -382,10 +382,11 @@ export const Dashboard = () => {
                     <div className="flex-shrink-0 btn-square bg-primary me-3">
                       <i className="fa fa-check text-white"></i>
                     </div>
-                    <h5 className="mb-0">Data Engineering</h5>
+                    <h5 className="mb-0">Data Management</h5>
                   </div>
                   <span>
-                  For optimized data warehousing and seamless migration, our Snowflake and AWS platforms provide enterprises with superior scalability and precision.
+                  Using modern engineering principles, our expert team will tailor and unify your data on the cloud, establishing fully automated and secure data pipelines that allow you to ingest, integrate, and share information across diverse functions within your enterprise
+
                   </span>
                 </div>
                 <div className="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
@@ -399,6 +400,23 @@ export const Dashboard = () => {
                   For optimal generative AI integration, use our advanced data preprocessing, algorithmic engineering, and ongoing support to enhance decision-making with ML algorithms.
                   </span>
                 </div>
+
+
+                <div className="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                  <div className="d-flex align-items-center mb-3">
+                    <div className="flex-shrink-0 btn-square bg-primary me-3">
+                      <i className="fa fa-check text-white"></i>
+                    </div>
+                    <h5 className="mb-0">Data Analytics </h5>
+                  </div>
+                  <span>
+                  data analytics Assess your current data maturity and define the strategic roadmap needed to implement a scalable management program that enables business growth, while managing risk and reducing costs
+
+                  </span>
+                </div>
+
+
+
 
 
                 <div className="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
@@ -464,7 +482,7 @@ export const Dashboard = () => {
                   <h5 className="mb-3">Healthcare and Medicine</h5>
                   <p>
                   <b>Secure and HIPAA-compliant healthcare solutions </b> 
-                  Be it improving patient data management, enhancing care delivery, or reducing data retrieval times, SoftProdigy caters to all! ...
+                  Be it improving patient data management, enhancing care delivery, or reducing data retrieval times, we caters to all..
                   </p>
                 </div>
               </div>
@@ -499,7 +517,7 @@ export const Dashboard = () => {
                   <h5 className="mb-3">Retail and E-commerce</h5>
                   <p>
                    <b>Greater sales with cloud, AI, ML, and data analytics </b>
-                   At SoftProdigy, we don’t just build e-commerce apps; we engineer and master them. Our team helps retailers streamline their operations...
+                   we don’t just build e-commerce apps; we engineer and master them. Our team helps retailers streamline their operations...
                   </p>
                 </div>
               </div>
